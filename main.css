@@ -1,3 +1,54 @@
 body {
-    background-color: aquamarine;
+    background-color: #ffffff;
+}
+
+* {
+    padding: 12px;
+    margin: 12px;
+}
+
+header, nav {
+    display: flex;
+}
+
+header {
+    justify-content: flex-end;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+header > * {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.white-text {
+    color: white;
+}
+
+select {
+    border: 1px transparent;
+    background-color: transparent;
+}
+
+.text-default {
+    color: black;
+}
+
+nav {
+    justify-content: space-between;
 }
